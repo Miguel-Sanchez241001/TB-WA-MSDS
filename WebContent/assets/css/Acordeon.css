@@ -1,0 +1,89 @@
+.menujq ul {
+	list-style: none;
+	width: 246px;
+	padding: 0;
+	margin: 0 auto;
+    text-align: left;
+}
+
+
+
+/* Sangrado y segundo color para sub-opciones */
+.menujq ul ul a {
+	padding-left: 20px;
+	background: #D0D0D0;
+	/*text-transform: capitalize;*/
+	color: #282828;
+	font-family: "Arial";
+	font-size: 11px;
+}
+
+.menujq ul ul a:hover {
+	color: #A80000;
+}
+
+
+
+
+.menujq ul li #preventivo:after {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+}
+
+
+.menujq ul li #sintilde:after {
+	
+	display: inline-block;
+	
+}
+
+
+.menujq a {
+	display: block;
+	border:1px solid #F7F7F7;
+	background: url("../img/body/bg-menu.jpg");
+	color: #505050;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 16px;
+	
+	padding-left: 20px;
+	/*font-family: "DaxcompactRegular";*/
+	width: 83%;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+.menujq ul li.desplegable a:before {
+	content: url("../img/body/flecha-menu.jpg");
+	width: 28px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+}
+
+
+/* S�mbolo elemento desplegable abierto */
+.menujq ul li.desplegable .activa a:before {
+	content: url("../img/body/flecha-menu-active.jpg");
+}
+
+/* Eliminar s�mbolos para sub-opciones */
+.menujq ul li.desplegable ul li a:before,.menujq ul li.desplegable
+	.activa ul li a:before {
+	content: "";
+}
+
+/* Lista anidada inicialmente oculta */
+.menujq ul ul {
+	display: none;
+	width: 100%;
+}
+
+
+

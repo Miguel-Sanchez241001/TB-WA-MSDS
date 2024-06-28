@@ -1,0 +1,761 @@
+/*
+Project Name: Banco de la Nacion Multired
+URI: http://medialabla.com/extend/themes/banco-de-la-nacion
+Author: the Medialab team
+Author URI: http://www.medialabla.com/
+Description: Main CSS for Banco de la Naci&oacute;n
+Version: 1.0
+Tags: Banco de la Nación, Banco, Banco Peru, Banco Lima, Perú, perú, banco provincias...
+*/
+
+
+
+/* =Global
+----------------------------------------------- */
+body {
+    background: url(../img/header/bg-body.jpg) repeat-x top left #f0f0f0;
+    color: #121212;
+    font-family: 'arial';
+    overflow-x:hidden;
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#contenedor 
+{
+    width: 1200px;
+    margin-top: 0px;
+    margin-right:auto;
+    margin-bottom: 0px;
+    margin-left:auto;
+    position: relative;
+ 
+ }
+
+#cabecera {
+    height: 90px;
+    position: relative;
+}
+
+#cabecera #logo-multired{
+    left: 0px;
+    position: absolute;
+    top: 10px;
+}
+
+#cabecera #logo-bn {
+    right: 0px;
+    position: absolute;
+    top: 33px;
+}
+
+#cuerpo{
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    position: relative;
+    /*width: 905px;*/
+    width: 1000px;
+    top: 0px;
+    left: 0px;
+}
+
+#cuerpo h1{
+    color: #343434;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+
+}
+
+#cuerpo h1 img{
+    margin: 0px 12px 0px 0px;
+  
+}
+
+#cuerpo h1 span{
+    color: #c21315;
+ 
+}
+
+#pie-pagina{
+    text-align: center;
+    padding: 60px 0px 65px 0px;
+    width: 100%;
+}
+
+#pie-pagina #titulo-pie-pagina{
+    color: #373737;
+    font: bold 12px arial;
+    padding: 0px 0px 8px 0px;
+}
+
+#pie-pagina #oficinas{
+    color: #5e5e5f;
+    font: 11px arial;
+}
+
+#login #login-contenido .boton {
+    border-top: 2px dashed rgb(184, 184, 184);
+    margin: 20px 0px 0px;
+    padding: 15px 0px 0px;
+    text-align: center;
+}
+
+#login #login-contenido .boton input{
+	background: url(../img/body/btn-boton.jpg) no-repeat;
+	color: #fff;
+	border: medium none;
+	height: 24px;
+	font: 14px/24px 'daxcompact-mediumregular';
+	margin: 10px 30px 0px 30px;
+	/*padding: 0px 0px 0px 28px;*/
+	text-transform: uppercase;
+	width: 110px;/*72px;*/
+	cursor:pointer;
+	text-align:center;
+}
+
+#login #login-contenido #botones{
+	padding: 0px 0px 0px 0px;
+	
+}
+#login #login-contenido #botones #continuar{
+	background: url(../img/body/btn-continuar.html) no-repeat;
+	color: #fff;
+	/*display: block;*/
+	height: 25px;
+	float: left;
+	font: 14px/24px 'daxcompact-mediumregular';
+	margin: 0px 30px 0px 20px;/*30der */
+	/*padding: 0px 0px 0px 20px;*/
+	text-transform: uppercase;
+	width: 110px; /* 90 */ 
+	cursor:pointer;
+	text-align: center;
+}
+
+#login #login-contenido #botones #regresar{
+	background: url(../img/body/btn-regresar.html) no-repeat;
+	color: #fff;
+	/*display: block;*/
+	height: 25px;
+	float: left;
+	font: 14px/24px 'daxcompact-mediumregular';
+	margin: 0px 30px 0px 30px;
+	/*padding: 0px 0px 0px 34px;*/
+	text-transform: uppercase;
+	width: 110px; /* 76 */ 
+	cursor:pointer;
+	text-align:center;
+}
+
+/* =============================================================================
+   OTROS
+   ========================================================================== */
+.limpiar:after { content: "."; display: block; height: 0; font-size:0; clear: both; visibility:hidden; }
+.limpiar{ display: inline-block;}
+* html .limpiar { height: 1%; }
+.limpiar{display:block;}
+
+
+/*==========================================================================
+    estilos tablas y popups
+ ===========================================================================   */
+
+.PopupContainerTablas {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowTablas {
+    position:absolute;
+    left:30%;
+    top:11%;
+    width:450px;
+    height:480px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+.PopupContainerResul {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowResul {
+    position:absolute;
+    left:12%;
+    top:18%;
+    width:580px;
+    height:580px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+
+.PopupContainerMaestroNemonico {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:110%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowMaestroNemonico {
+    position:absolute;
+    left:20%;
+    top:12%;
+    width:580px;
+    height:390px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+.PopupContainerMaestroEntidad {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowMaestroEntidad {
+    position:absolute;
+    left:20%;
+    top:12%;
+    width:580px;
+    height:430px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+.PopupContainerConsPago {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowConsPago {
+    position:absolute;
+    left:25%;
+    top:11%;
+    width:480px;
+    height:420px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+
+
+.PopupContainerConsCertifica {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:110%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowConsCertifica {
+    position:absolute;
+    left:30%;
+    top:12%;
+    width:500px;
+    height:450px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+.PopupContainerCertiHisto {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowCertiHisto {
+    position:absolute;
+    left:15%;
+    top:11%;
+    width:730px;
+    height:400px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+.PopupContainerPDF {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:110%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowPDF {
+    position:absolute;
+    left:15%;
+    top:12%;
+    width:707px;
+    height:566px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+        
+}
+
+
+.PopupContainerProgress {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:110%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowProgress {
+    position:absolute;
+    left:42%;
+    top:25%;
+    width:109px;
+    height:106px;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+.PopupContainerCertificado {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:110%;
+    height:100%;
+    display:none;
+    background: rgba(0,0,0,0.5);
+    z-index:20;
+    -webkit-transition:opacity 200ms ease-in;
+    -moz-transition:opacity 200ms ease-in;
+}
+
+.PopupWindowCertificado {
+    position:absolute;
+    left:12%;
+    top:18%;
+    width:65%;
+    height:85%;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:medium;
+    
+}
+
+
+
+.marcoPopup {
+	
+	top: 0px;
+	left: 0px;
+	width: 380px;
+	height: 470px;
+	display: none;
+	background-color: #e7eff3;
+	background: #000;
+    border-style: solid;
+    border-color: #000;
+	
+}
+
+.popup {
+	
+	border-style: solid;
+    background-color: whitesmoke;
+    color: #8ea6b4;
+}
+
+
+.marcoPopupSele {
+	
+	top: 0px;
+	left: 0px;
+	width: 970px;
+	height: 470px;
+	display: none;
+	background-color: #e7eff3;
+	background: #000;
+    border-style: solid;
+    border-color: #000;
+	
+}
+
+
+.frm-cabecera-det {
+	font-size: 14px;
+	background-color: #217346;
+	border-color: #217346;
+	color: #fff;
+	padding: 8px 15px;
+	border-bottom: 1px solid transparent;
+}
+
+.tabla {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.tabla-impresion {
+	border: 1px solid #9a9c8b;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+
+.tabla-impresion > thead > tr > th {
+	padding: 6px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	text-align: left;
+	border-left: 1px solid #9a9c8b;
+}
+
+.tabla-impresion > thead > tr > th > a {
+		text-decoration: none;
+	}
+
+.tabla-impresion > tbody > tr > td {
+	padding: 2px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	text-align: left;
+	border-left: 1px solid #9a9c8b;
+	border-bottom: 1px solid #9a9c8b;
+}
+
+.tabla-impresion > tbody > tr > td > a {
+		padding-left: 1px;
+	}
+
+
+
+.tabla-general {
+	border: 1px solid #ddd;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.tabla-FilaCab {
+	/*background-color: whitesmoke;*/
+	background-color: #EBF1DD;
+	/*color: #337ab7;*/
+	color: #217346;
+	font-weight: bold;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.tabla-general > thead > tr > th {
+	padding: 6px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	text-align: left;
+	border-left: 1px solid #ddd;
+}
+
+.tabla-general > thead > tr > th > a {
+		text-decoration: none;
+	}
+
+.tabla-general > tbody > tr > td {
+	padding: 2px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	text-align: left;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.tabla-general > tbody > tr > td > a {
+		padding-left: 1px;
+	}
+
+.tabla-FilaCuerpo :hover {
+	/*background-color: whitesmoke;*/
+	background-color: #EBF1DD;
+}
+
+.centrado {
+	text-align: center;
+}
+
+
+.clsTableRowAlternating
+{   
+    background-color: #f1f6f9 ;
+}
+
+
+.paginacion {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+	list-style: none;
+}
+
+.paginacion > li:last-child > a, .paginacion > li:last-child > span {
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+}
+
+.paginacion > li:first-child > a, .paginacion > li:first-child > span {
+		margin-left: 0;
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+}
+
+.paginacion > li > a, .paginacion > li > span {
+		position: relative;
+		float: left;
+		padding: 6px 12px;
+		margin-left: -1px;
+		line-height: 1.42857143;
+		color: #f6931e;
+		text-decoration: none;
+		background-color: #fff;
+		border: 1px solid #ddd;
+}
+    
+.FilaCabecera {
+    background-color:lightgray;
+    color:black;
+}
+
+.FilaDatos {
+    background-color:white;
+    color:black;
+}
+
+.FilaDatos:hover {
+    background-color:#548d92;
+    color:white;
+   
+}
+
+.BotonPop {
+    background-color:#f6931e;
+    color:#fff;
+    width:90px;
+    height:35px;
+    border-radius:6px;
+}
+.BotonPop:hover {
+    background-color: #fff;
+	border: 1px solid #ddd;
+    color: #f6931e;
+    cursor:pointer;
+}
+
+.Boton {
+    background-color:#f6931e;
+    color:#fff;
+    width:35px;
+    height:35px;
+    border-radius:4px;
+}
+
+.Boton:hover {
+    background-color: #fff;
+	border: 1px solid #ddd;
+    color: #f6931e;
+    cursor:pointer;
+}
+
+.BotonMedium {
+    background-color:#323643;
+    width:120px;
+    height:35px;
+    border-radius:4px;
+    color: white;
+}
+.BotonMedium:hover {
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.BotonSmall {
+    background-color:#323643;
+    width:86px;
+    height:35px;
+    border-radius:4px;
+    color: white;
+}
+.BotonSmall:hover {
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.BotonSimple {
+    color: white;
+}
+.BotonSimple:hover {
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.BotonClose {
+    background-color:#606470;
+    width:20px;
+    height:20px;
+    border-radius:4px;
+}
+.BotonClose:hover {
+    background-color:#D0D0D0;
+    cursor:pointer;
+}
+
+.BarraTitulo {
+    background: #606470;
+	color: white;
+	font-family: Arial;
+	font-size: 11px; 
+}
+
+.ErrorMsg {
+  
+	color: red;
+	font-family: Arial;
+	font-size: 11px; 
+}
+
+
+.ErrorMsg {
+  
+	color: #A61219;
+	font-family: Arial;
+	font-size: 11px; 
+}
+
+
+.MsgNavegador {
+  
+	color:#A61219;
+    font-weight:bold;
+	font-family :Arial;
+    font-size: 12px; 
+}
+
+
+.clsBorderTable
+{
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid;
+	/*background-color: #f1f1f1;*/
+    font-weight: bold;
+    font-size: 9pt;
+    font-family: Arial;	
+}

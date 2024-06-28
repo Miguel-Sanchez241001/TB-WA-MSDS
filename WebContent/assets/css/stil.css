@@ -1,0 +1,33 @@
+
+/* CSS Document */
+.main {width:auto; font-size:0.8em; font-family:Arial, Helvetica, sans-serif; margin:0 auto; padding:20px;}
+.main1 {width:1300px; font-size:0.8em; font-family:Arial, Helvetica, sans-serif; border:2px #CA261B solid; margin:0 auto; padding:20px;}
+.encab {height:84px; background:url(../img/header/fondo_cab.html) right top no-repeat;}
+.ti0 { font-size:1.6em; color:#990000; margin:15px 0 0 15px; padding:3px 0; text-align:left;}
+.ti2 { font-size:1em; color:#000; margin:5px 0 0 35px; padding:0; text-align:left;}
+.ti3 { font-size:1em; color:#000; margin:40px 0 0 0; padding:3px 5px; text-align:right; background-color:#F1F1F1;}
+.ti4 { font-size:1em;margin:5px 0 0 15px; padding:0; text-align:left;}
+.tab2 {margin:0 auto; width:600px;}
+.tab3 {font-size:0.9em; margin:0 auto; width:600px;background-color:#F1F1F1; padding:10px;}
+.logop  {margin:10px 10px 0 0; float:right; clear:both;}
+.ab {font-size:0.8em;margin:0;}
+.cas1 
+{
+    margin:15px 5px 0 10px;
+    	text-transform:uppercase;
+    	border: 1px solid #7F9DB9;
+    }
+.cas2 
+{
+    
+    margin:15px 5px 0 10px;
+    border: 1px solid #7F9DB9;
+       
+       }
+
+
+.btn {margin:8px 5px 0 158px;; text-align:left; }
+.ayuda { font-size:0.8em; color:#222;margin:0 0 10px 0;padding:0;}
+.bn { font-size:0.9em; color:#000;margin:0 0 10px 0;padding:0;}
+.tar {margin:0 0 0 20px;}
+label {margin:0 0 0 20px; font-weight:bold;}

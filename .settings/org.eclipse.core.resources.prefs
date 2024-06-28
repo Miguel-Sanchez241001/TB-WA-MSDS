@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/template/consulta/auditoria.jsp=ISO-8859-1
+encoding//WebContent/WEB-INF/views/template/consulta/consulta.jsp=ISO-8859-1
+encoding//WebContent/WEB-INF/views/template/consulta/consultaApli.jsp=ISO-8859-1
+encoding//WebContent/WEB-INF/views/template/consulta/consultaServ.jsp=ISO-8859-1
+encoding//WebContent/WEB-INF/views/template/consulta/parametros.jsp=ISO-8859-1
+encoding//WebContent/WEB-INF/views/template/consulta/prueba.jsp=ISO-8859-1
+encoding//WebContent/WEB-INF/views/template/consulta/servicios.jsp=ISO-8859-1
+encoding//src/pe/com/bn/msds/common/Funciones.java=UTF-8
+encoding//src/pe/com/bn/msds/controller/AdministracionController.java=UTF-8
+encoding//src/pe/com/bn/msds/dao/impl/ParametrosImpl.java=UTF-8

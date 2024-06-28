@@ -1,0 +1,354 @@
+/*
+Project Name: Banco de la Nacion Multired
+Author: the Medialab team
+Author URI: http://www.medialabla.com/
+Description: Main CSS for Banco de la Naci&oacute;n
+Version: 1.0
+Tags: Banco de la Naci&oacute;n, Banco, Banco Peru, Banco Lima, Per&uacute;, per&uacute;, banco provincias...
+*/
+
+/* =Global
+----------------------------------------------- */
+
+
+#cuerpo h1{
+    font: 18px 'daxcompact-mediumregular';
+    text-align: left;
+    margin: 0 0 0px 16px;
+    height:44px;
+  
+  
+}
+
+#cuerpo h1 img {
+    vertical-align: top;
+    	
+}
+
+#cuerpo #cerrar-sesion{
+	right: 16px;
+	position: absolute;
+	top: 28px;
+
+}
+
+#cuerpo #cerrar-sesion a{
+	background: url(../img/body/cerrar-sesion.jpg) no-repeat right center;
+	color: #2a2a2a;
+	display: block;
+	font: 14px 'daxcompact-mediumregular';
+	height: 29px;
+	text-transform: uppercase;
+	text-align: left;
+	width: 85px;
+	
+}
+
+#bienvenidos-contenido{
+	background: url(../img/body/border-derecha.jpg) repeat-y right top;
+	padding: 0px 4px 0px 0px;
+	width: 1000px;
+}
+
+
+#bienvenidos-contenido #datos-personales{
+	background: #d7d7d7;
+	border-left: 1px solid #adadad;
+	border-right: 1px solid #adadad;
+	border-bottom: 1px solid #adadad;
+	margin-left: 0px;
+	padding: 0px 8px 0px 19px;
+	text-align: left;
+	width: 1072px;
+	margin-top:-4px;
+
+}
+
+#bienvenidos-contenido #datos-personales #perfil,
+#bienvenidos-contenido #datos-personales #oficinaUsu,
+#bienvenidos-contenido #datos-personales #ultimo-ingreso,
+#bienvenidos-contenido #datos-personales #tipo-cambio{
+	border-right: 1px dashed #939393;
+	color: #343434;
+	/*float: left;	 */     
+}
+
+#bienvenidos-contenido #datos-personales #nombres,
+#bienvenidos-contenido #datos-personales #oficinaUsu,
+#bienvenidos-contenido #datos-personales #perfil,
+#bienvenidos-contenido #datos-personales #botones{
+	font: 18px 'daxcompact-mediumregular';
+	text-transform: uppercase;
+	padding: 3px 0;
+	width: 560px;		
+}
+
+.cerrarsession{
+	font: 18px 'daxcompact-mediumregular';
+	text-transform: uppercase;
+	padding: 3px 0;
+	width:650px;
+
+		
+}
+
+	
+#bienvenidos-contenido #datos-personales #nombres span,
+#bienvenidos-contenido #datos-personales #oficinaUsu span,
+#bienvenidos-contenido #datos-personales #perfil span,
+#bienvenidos-contenido #datos-personales #botones span{
+	color: #c51416;
+
+	
+}
+
+#bienvenidos-contenido #datos-personales #ultimo-ingreso{
+	color: #202020;
+	font: 11px arial;
+	padding: 2px 20px 10px 19px;
+	width:100px;
+	height: 52px;
+	
+}
+
+#bienvenidos-contenido #datos-personales #ultimo-ingreso p{
+	line-height: 16px;
+
+}
+
+#bienvenidos-contenido #datos-personales #ultimo-ingreso span{
+	color: #c51416;
+			
+}
+
+#bienvenidos-contenido #bn-contenidos{
+	background: #fff;
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+	margin: 0px 0px 0px 2px;
+	padding: 26px 0px 95px 0px;
+	width: 1100px;
+	margin-left:0px;
+		
+	
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas{
+	float: left;
+	/*padding: 5px 0px 0px 0px;*/
+	text-align: left;
+	width: 215px;
+	
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas ul#navegacion{
+	width: 198px;
+	padding: 0px 0px 27px 0px;
+
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas ul#navegacion li{
+	background: url(../img/body/bg-menu.jpg) repeat-x;
+	height: 40px;
+	width: 198px;
+			
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas ul#navegacion li a{
+	background: url(../img/body/flecha-menu.jpg) no-repeat 14px 13px;
+	border-top: 1px solid #c6c6c6;
+	border-right: 1px solid #c6c6c6;
+	border-bottom: 1px solid #c6c6c6;
+	color: #3b3b3b;
+	display: block;
+	height: 38px;
+	font: 12px/38px 'daxcompact-regularregular';
+	text-align: left;
+	padding: 0px 0px 0px 34px;
+
+
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas #bloqueo-tarjetas{
+	background: url(../img/body/bg-bloqueo-tarjetas.html) repeat-x top left;
+	border: 1px solid #909090;
+	margin: 0px 0px 0px 20px;
+	padding: 6px 0px 12px 0px;
+	text-align: center;
+	width: 158px;
+		
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas #bloqueo-tarjetas .titulo-bloqueo-tarjetas{
+	border-bottom: 1px dashed #717171; 
+	color: #343434;
+	font: 11px/12px 'daxcompact-mediumregular';
+	text-transform: uppercase;
+	padding: 0px 0px 7px 0px;
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas #bloqueo-tarjetas .titulo-bloqueo-tarjetas span{
+	color: #b71012;
+	font: 20px/21px 'daxcompact-boldregular'; 
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas #bloqueo-tarjetas .linea-telefonica{
+	padding: 10px 0px 0px 0px;
+	color: #343434;
+	font: 11px/20px 'daxcompact-mediumregular';
+	text-transform: uppercase;
+}
+
+#bienvenidos-contenido #bn-contenidos #menu-internas #bloqueo-tarjetas .linea-telefonica .telefono{
+	font: 18px/20px 'daxcompact-boldregular'; 
+}
+
+#bienvenidos-contenido #bn-contenidos #enlaces-rapidos{
+	margin: 0 0 0 20px;
+	padding: 16px 0px 0px 0px;
+	text-align: left;
+	width: 135px;
+}
+
+#bienvenidos-contenido #bn-contenidos #enlaces-rapidos li{
+	padding: 0px 0px 6px 0px;
+}
+
+#bienvenidos-contenido #bn-contenidos #enlaces-rapidos a{
+	color: #3b3b3b;
+	display: block;
+	font: 12px/25px 'daxcompact-regularregular';
+}
+
+#bienvenidos-contenido #bn-contenidos #enlaces-rapidos a:hover{
+	text-decoration: underline;
+}
+
+#bienvenidos-contenido #bn-contenidos #enlaces-rapidos a img{
+	margin: 0px 5px 0px 0px;
+	vertical-align: middle;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos
+{
+    float: left;
+	width: 750px;
+	margin-left: 20px;
+
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos h2{
+	color: #c51416;
+	font: 18px 'daxcompact-regularregular';
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0px 0px 18px 0px;
+
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos p{
+	color: #555555;
+	font: 11px/13px arial;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 0px 0px 8px 0px;
+	width: 528px; 
+	
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros{
+	border-bottom: 1px dashed #b8b8b8;
+	text-align: left;
+	margin: 0px 0px 42px 0px;
+	padding: 20px 0px 42px 0px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros .select-bienvenidos{
+	background: url(../img/body/bg-select.jpg) no-repeat;
+	height: 20px !important;
+	margin-left: -7px;
+	width: 115px !important;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros .select-bienvenidos .ui-selectmenu-status{
+	line-height: 20px !important;
+	padding: 0px 0px 0px 12px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros .titulo-ahorros{
+	background: #909090;
+	color: #fff;
+	font: 14px 'daxcompact-mediumregular';
+	margin: 0px 0px 2px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros #cuenta{
+	float: left;
+	margin: 0px 1px 1px 0px;
+	width: 210px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros #cuenta .sub-titulo-ahorros{
+	padding: 12px 0px 9px 21px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros #cuenta li{
+	padding: 12px 0px 9px 21px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros #moneda{
+	float: left;
+	margin: 0px 1px 1px 0px;
+	width: 129px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros #saldo{
+	float: left;
+	margin: 0px 1px 1px 0px;
+	width: 130px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros #consulta{
+	float: left;
+	margin: 0px 0px 1px 0px;
+	width: 130px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros .sub-titulo-ahorros{
+	background: #cacaca;
+	color: #000000;
+	font: 12px arial;
+	margin: 0px 0px 1px 0px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 12px 0px 9px 15px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros ul{
+	padding: 0px 0px 1px 0px;
+}
+
+#bienvenidos-contenido #bn-contenidos #contenidos-informativos #cuenta-ahorros li{
+	background: #f1f1f1;
+	color: #000000;
+	height: 18px;
+	margin: 0px 0px 1px 0px;
+	font: 12px/18px arial;
+	padding: 12px 0px 9px 15px;
+}
+
+ul.select-bienvenidos{
+	width: 85px !important;
+	
+}
+
+
+
+#Cuerpo #border-superior{
+ top: 0px;
+ 	}
+
+

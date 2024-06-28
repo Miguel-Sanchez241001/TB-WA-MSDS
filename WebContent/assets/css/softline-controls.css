@@ -1,0 +1,798 @@
+/***********************************************************************
+Autor:Luis Chavarria (IG)
+Style:Libreria de Estilos para los Controles ASP.NET, Controles Ajax y Controles Jquery
+************************************************************************/
+/************************************************************************
+ Controles ASP.NE
+*************************************************************************/
+/*  GridView  -------------------------------------------------------*/
+
+#sistema_1 #footer_1
+{
+    color: White;
+    padding: 10px 0px 10px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+    background-color: #BE1E26;
+}
+
+.originalDisplayInfo 
+{ 
+color:#007ACC; 
+}
+
+
+#login #login-contenido form .textarea{
+	border: 1px solid #ececec;
+	font: 11px/13px arial;
+	color: #4f4f4f;/* 7b7b7b */
+	margin: 0px -30px;
+}
+
+.link
+{
+    font-family: Arial;
+    font-size: 10px;
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 0px 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.cssGridResultado
+{
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #CCCCCC;
+    font-family: Arial;
+    font-size: 10px;
+    color: #626262;
+    font-style: normal;
+    line-height: 28px;
+    width:100%;
+    vertical-align:center;
+   
+}
+
+
+.cssGridResultado td
+{
+    padding: 5px 5px;
+    line-height: 1.4;
+    overflow:hidden;
+}
+.cssGridResultado td a
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #254A70;
+}
+.cssGridResultado tr
+{
+    font-family: Arial;
+}
+
+.cssGridView
+{
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #CCCCCC;
+    font-family: Arial;
+    font-size: 10px;
+    color: #626262;
+    font-style: normal;
+    line-height: 28px;
+    width:100%;
+    vertical-align:center;
+    
+   
+}
+.cssGridView caption
+{
+    background-color: #E2E2E2;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    color: #666666;
+    text-align: left;
+    height: 16px;
+    border-bottom: 1px solid #C0C0C0;
+    margin: 0px;
+    padding: 2px 5px 2px 5px;
+}
+.cssGridView th
+{
+    border: 1px solid #a61219;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: #C30A12;
+    padding: 0px 5px;
+    font-weight: bold;
+    text-align: center;
+    overflow:hidden;
+    
+}
+.cssGridView td
+{
+    border: 1px solid #CCCCCC;
+    padding: 5px 5px;
+    line-height: 1.4;
+    overflow:hidden;
+}
+.cssGridView td a
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #254A70;
+}
+.cssGridView tr
+{
+    font-family: Arial;
+}
+.cssGridView-RowStyle
+{
+    background-color: #FFFFFF;
+}
+.cssGridView-SelectedRowStyle
+{
+    background-color: #BDBDBD;
+}
+.cssGridView-AlternatingRowStyle
+{
+    background-color: #F1F1F1;
+}
+.cssGridView-PagerStyle > td
+{
+    border: 1px solid #B5B5B5 !important;
+    font-size: 10px;
+    text-align: right;
+    background-color: #D7D7D7 !important;
+    height: 23px;
+}
+
+.cssTextArea
+{
+    overflow: auto;
+    -moz-resize: none;
+    -ms-resize: none;
+    -o-resize: none;
+    resize: none;
+}
+
+.cssTextBox, .cssTextArea, .cssTextBox-SinBorde, .cssTextBox-ReadOnly, .cssTextBox-Label, .cssTextBox-Invalid, .cssDropDownList, .cssDropDownList-ReadOnly, .cssHyperLink, .cssHyperLink:hover, cssTextBox-GrillaRead
+{
+    font-size: 11px;
+}
+.cssTextBox, .cssTextArea, .cssDropDownList, .cssTextBoxGrilla
+{
+    border: 1px solid #999999;
+}
+
+.cssTextBox-SinBorde
+{
+    border-style: solid;
+    border-width: inherit;
+    border-color: #CCCCCC;
+    background-color: #F8FAFC;
+    overflow: auto;
+}
+.cssTextBox-ReadOnly
+{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    font-style: normal !important;
+    line-height: normal;
+}
+.cssTextBox-Invalid
+{
+    background-color: #F8E7CD;
+    border: 1px solid #666666;
+    font-style: normal;
+    line-height: normal;
+}
+.cssTextBox-Label
+{
+    text-align: left;
+    background-color: transparent;
+    border: 0px none;
+}
+
+.cssTitulo-Label
+{
+    text-align: left;
+    border: 0px none;
+    color:red
+   
+}
+
+.cssHyperLink
+{
+    color: #293955;
+    font-style: normal;
+    line-height: normal;
+    font-size: 11px;
+    text-decoration: underline;
+    cursor: pointer !important;
+}
+.cssHyperLink:hover
+{
+    color: #3366CC;
+    font-style: normal;
+    line-height: normal;
+    font-size: 11px;
+}
+.cssDropDownList
+{
+    width: 220px;
+    margin-top: 0px;
+}
+.cssDropDownList-ReadOnly
+{
+    background-color: #CCCCCC;
+    border: 1px solid #C0C0C0;
+    width: 167px;
+}
+.cssRadioButtonList
+{
+    width: auto;
+    height: auto;
+}
+.cssRadioButtonList INPUT
+{
+    width: auto !important;
+    height: auto !important;
+}
+
+
+.cssButtonMedianoRojo
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/buttonred.jpg') no-repeat;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 11px;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    width: 120px;
+    margin-right: auto;
+    }
+
+
+.cssButton
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/button.jpg') no-repeat;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 11px;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    margin-right: auto;
+    }
+
+.cssButtonSmall
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/button-small.jpg') no-repeat;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    margin-right: auto;
+    }
+
+.cssButton-redchico {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/buttonred-small.jpg') no-repeat;
+    font: 14px 'daxcompact-boldregular';
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+
+.cssUploadButton
+{
+    background: url('../img/shapes/button-small.jpg') no-repeat;
+    border: none;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 86px;
+    height: 24px;
+}
+
+.cssButton-larger
+{
+    background: url('../img/shapes/buttonlarger.jpg') no-repeat;
+    border: none;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+}
+
+.cssButton-red
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/buttonred_mid.jpg') no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 11px;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    margin-right: auto;
+    width: 180px;
+    }
+
+.cssButtonSmall-red
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/buttonred-small.jpg') no-repeat;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    width: 86px;
+    margin-right: auto;
+    height: 26px;
+}
+
+.cssButtonSmall-redNuevo
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/buttonredorginal.jpg') no-repeat;
+    font: 12px 'daxcompact-boldregular';
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    width: 120px;
+    margin-right: auto;
+    height: 26px;
+}
+
+.btnCancelar
+{
+    background: url('../img/shapes/button.jpg') no-repeat;
+    border: none;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+}
+
+.cssButton-red-larger
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/buttonredlarger.jpg') no-repeat;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    width: 216px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.cssButton-gris-larger
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/buttonlarger.jpg') no-repeat;
+    font-family: Arial;
+    font-size: 11px;
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    width: 215px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+.cssButton-gris-larger-Retornar
+{
+
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/shapes/button_medio.jpg') no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 11px;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+    width: 150px;
+    margin-right: auto;
+    height: 26px;
+
+
+           }
+
+.cssReloadCaptcha
+{
+    background-color: transparent;
+    border: 0px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bolder;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+/************************************************************************
+Controles Jquery
+*************************************************************************/
+/*  Validador  -------------------------------------------------------*/
+.formError
+{
+    z-index: 990;
+}
+.formError .formErrorContent
+{
+    z-index: 991;
+}
+.formError .formErrorArrow
+{
+    z-index: 996;
+}
+.formErrorInsideDialog.formError
+{
+    z-index: 5000;
+}
+.formErrorInsideDialog.formError .formErrorContent
+{
+    z-index: 5001;
+}
+.formErrorInsideDialog.formError .formErrorArrow
+{
+    z-index: 5006;
+}
+.inputContainer
+{
+    position: relative;
+    float: left;
+}
+.formError
+{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: block;
+    cursor: pointer;
+}
+.ajaxSubmit
+{
+    padding: 20px;
+    background: #55ea55;
+    border: 1px solid #999;
+    display: none;
+}
+.formError .formErrorContent
+{
+    width: 100%;
+    background: #ee0101;
+    position: relative;
+    color: #fff;
+    text-align: left;
+    width: 150px;
+    font-size: 11px;
+    border: 2px solid #C0C0C0; /*ddd*/ /*box-shadow: 0 0 6px #000;-moz-box-shadow: 0 0 6px #000;-webkit-box-shadow: 0 0 6px #000;*/
+    padding: 4px 10px 4px 10px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    behavior: url(../Common/JavaScripts/PIE.htc);
+}
+.greenPopup .formErrorContent
+{
+    background: #33be40;
+}
+.blackPopup .formErrorContent
+{
+    background: #393939;
+    color: #FFF;
+}
+.formError .formErrorArrow
+{
+    width: 15px;
+    margin: -2px 0 0 13px;
+    position: relative;
+}
+body[dir='rtl'] .formError .formErrorArrow, body.rtl .formError .formErrorArrow
+{
+    margin: -2px 13px 0 0;
+}
+.formError .formErrorArrowBottom
+{
+    /*box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;*/
+    margin: 0px 0 0 12px;
+    top: 2px;
+}
+.formError .formErrorArrow div
+{
+    border-left: 2px solid #C0C0C0; /*ddd*/
+    border-right: 2px solid #C0C0C0; /*ddd*/ /*box-shadow: 0 2px 3px #444;-moz-box-shadow: 0 2px 3px #444;-webkit-box-shadow: 0 2px 3px #444;*/
+    font-size: 0px;
+    height: 1px;
+    background: #ee0101;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block;
+}
+.formError .formErrorArrowBottom div
+{
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.greenPopup .formErrorArrow div
+{
+    background: #33be40;
+}
+.blackPopup .formErrorArrow div
+{
+    background: #393939;
+    color: #FFF;
+}
+.formError .formErrorArrow .line10
+{
+    width: 15px;
+    border: none;
+}
+.formError .formErrorArrow .line9
+{
+    width: 13px;
+    border: none;
+}
+.formError .formErrorArrow .line8
+{
+    width: 11px;
+}
+.formError .formErrorArrow .line7
+{
+    width: 9px;
+}
+.formError .formErrorArrow .line6
+{
+    width: 7px;
+}
+.formError .formErrorArrow .line5
+{
+    width: 5px;
+}
+.formError .formErrorArrow .line4
+{
+    width: 3px;
+}
+.formError .formErrorArrow .line3
+{
+    width: 1px;
+    border-left: 2px solid #C0C0C0; /*ddd*/
+    border-right: 2px solid #C0C0C0; /*ddd*/
+    border-bottom: 0 solid #C0C0C0; /*ddd*/
+}
+.formError .formErrorArrow .line2
+{
+    width: 3px;
+    border: none;
+    background: #ddd;
+}
+.formError .formErrorArrow .line1
+{
+    width: 1px;
+    border: none;
+    background: #ddd;
+}
+
+/* Modal-Popup  --------------------------------------------------------*/
+.modal-popup
+{
+    background-color: #ffffff;
+    border: 1px solid #496077;
+    min-width: 300px;
+    padding: 0px 10px 10px 10px;
+    margin: 0 auto;
+}
+.modal-popup .modal-popup-header
+{
+    /*background: url('../img/shapes/panel_header.png') repeat-x;*/
+   background: url('../../Common/img/shapes/panel_header.jpg') repeat-x; 
+    border-bottom: 1px solid #496077;
+    min-height: 20px;
+    cursor: move;
+    margin: 0px -10px 10px -10px;
+    padding: 10px 10px 0px 10px;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+.modal-popup .modal-popup-header .modal-popup-cancel
+{
+    min-width: 44px;
+    /*background: url('../img/shapes/panel_close.png') no-repeat;*/
+    background: url('../../Common/img/shapes/panel_close.png') no-repeat; 
+    cursor: pointer;
+    float: right;
+    margin-top: -10px;
+    min-height: 20px;
+}
+.modal-popup .modal-popup-header .modal-popup-cancel:hover
+{
+    min-width: 44px;
+    /*background: url('../img/shapes/panel_close_hover.png') no-repeat;*/
+    background: url('../../Common/img/shapes/panel_close_hover.png') no-repeat; 
+}
+
+
+.oculto
+{
+    display: none;
+}
+
+.muestro
+{
+    display: block;
+}
+
+/* Message Box  --------------------------------------------------------*/
+.info, .success, .warning, .error, .validation, .confirm, .successevent
+{
+    border: 1px solid;
+    margin: 10px 0px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.confirm
+{
+    color: #333333;
+    background-color: #EBEBEB;
+    background-image: url('../Images/Shares/confirm.png' );
+}
+.info
+{
+    color: #00529B;
+    background-color: #DAE3FA;
+    background-image: url('../Images/Shares/info.png');
+}
+.success, .successevent
+{
+    color: #4F8A10;
+    background-color: #EFFEED;
+    background-image: url('../Images/Shares/success.png');
+}
+.warning
+{
+    color: #9F6000;
+    background-color: #FFFBE8;
+    background-image: url('../Images/Shares/warning.png');
+}
+.error
+{
+    color: #D8000C;
+    background-color: #FFECEC;
+    background-image: url('../Images/Shares/error.png');
+}
+.info p, .success p, .warning p, .error p, .confirm p, .ModalPopup p, .successevent p
+{
+    padding: 0px 50px;
+    text-align: center;
+}
+.info a, .success a, .warning a, .error a, .confirm a, .ModalPopup a, .successevent a
+{
+    float: right;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.messageheader
+{
+    background: url(../Images/Icons/sprite.png) repeat-x 0px -200px;
+    height: 18px;
+    padding: 5px;
+    border-bottom: solid 1px black;
+}
+.messageheadertext
+{
+    color: Black;
+    float: left;
+    font-weight: bold;
+}
+.messagefooter
+{
+    text-align: center;
+    padding-top: 2px;
+}
+
+
+/*Paginacion*/
+.pagerstyle, .pagination
+{
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-color: #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding: 7px 10px;
+    overflow: auto;
+}
+
+.navegacion
+{
+    float: left;
+    margin-right: 1em;
+}
+
+.pagerstyle a
+{
+    padding: 3px 5px 3px 5px;
+}
+
+#btnShowFirstPage, #btnShowPrevPage, #btnShowNextPage, #btnShowLastPage
+{
+    cursor: pointer;
+}
+
+.ui-datepicker-trigger
+{
+    cursor: hand;
+    padding-bottom:2px;
+}
+
+

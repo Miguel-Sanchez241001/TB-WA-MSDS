@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.etools.webservice.wscbnd:ClientBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.etools.webservice.wscbnd="http://www.ibm.com/websphere/appserver/schemas/5.0.2/wscbnd.xmi" xmi:id="ClientBinding_1465944055272">
+  <serviceRefs xmi:id="ServiceRef_1606422898410" serviceRefLink="service/AutenticaRegService">
+    <portQnameBindings xmi:id="PortQnameBinding_1606422898410" portQnameLocalNameLink="AutenticaReg"/>
+  </serviceRefs>
+  <serviceRefs xmi:id="ServiceRef_1606423127298" serviceRefLink="service/ParametroInterfazService">
+    <portQnameBindings xmi:id="PortQnameBinding_1606423127298" portQnameLocalNameLink="ParametroInterfaz"/>
+  </serviceRefs>
+</com.ibm.etools.webservice.wscbnd:ClientBinding>

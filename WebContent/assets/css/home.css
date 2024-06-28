@@ -1,0 +1,613 @@
+/*
+Project Name: Banco de la Nacion Multired
+Author: the Medialab team
+Author URI: http://www.medialabla.com/
+Description: Main CSS for Banco de la Naci&oacute;n
+Version: 1.0
+Tags: Banco de la Naci&oacute;n, Banco, Banco Peru, Banco Lima, Per&uacute;, per&uacute;, banco provincias...
+*/
+
+/* =Global
+----------------------------------------------- */
+
+
+#cuerpo h1{
+    font: 12px 'daxcompact-mediumregular';
+}
+
+#login{
+
+}
+
+#login #border-superior{    text-align: center;
+}
+
+#login #border-inferior{
+    
+}
+
+#login #login-contenido{
+    background: url(../img/body/border-derecha.jpg) repeat-y right top #fff;
+    border-left: 1px solid #d4d4d4;
+    color: #555555;
+    font: 12px arial;
+    margin: 0 auto;
+    position: relative;
+    padding: 18px 54px 10px 52px; /* 18 54 30 52 */
+    overflow: hidden;
+    text-align: center;
+    width: 536px;
+    top: 0px;
+    left: 0px;
+    height: 284px;
+}
+
+#login #login-contenido #border-inferior{
+    border-bottom: 1px dashed #B8B8B8;
+    bottom: 155px;
+    height: 1px;
+    position: absolute;
+    left: -1px;
+    width: 99%;
+}
+
+#login #login-contenido #border-inferior1{
+    
+    bottom: 55px;
+    height: 1px;
+    position: absolute;
+    left: 0px;
+    width: 99%;
+}
+
+#login #login-contenido p{
+    text-align: justify;
+}
+
+#login #login-contenido #comunicate{
+    bottom: 0;
+    color: #555555;
+    font: 11px arial;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#login #login-contenido form{
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 252px;
+}
+
+#login #login-contenido form input[type="button"]{
+    background: url(../img/body/btn-submit2.jpg) no-repeat;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    font: bold 14px arial;
+    margin: 38px 0 0 0;
+    text-align: center;
+    width: 130px;
+}
+
+#login #login-contenido form .fila{
+    margin: 0px 0px 15px 0px; /* 26 */
+}
+
+#login #login-contenido form label{
+    color: #4f4f4f;
+    font: 13px/23px arial;
+    text-align: right;
+    padding: 0px 4px 0px 0px;
+    width: 130px;
+}
+
+#login #login-contenido form .tipo-documento{
+    background: url(../img/body/bg-select.jpg) no-repeat;
+    height: 23px !important;
+    float: left;
+    width: 250px !important;
+}
+
+#login #login-contenido form .select-chico4{
+	background: url(../images/nuevodiseno/select-chico3.html) no-repeat;
+	color: #4f4f4f;/* 7b7b7b */
+	float: left;
+	height: 23px;
+	padding: 5px 0px 0px 10px;
+	margin: 0px 5px 0px 0px;
+	width: 135px !important; /*70*/
+}
+
+#login #login-contenido form .select-medio{
+	background: url(../images/nuevodiseno/select-chico4.html) no-repeat;
+	color: #4f4f4f;/* 7b7b7b */
+	float: left;
+	height: 20px;
+	padding: 5px 0px 0px 10px;
+	margin: 0px 10px 0px 0px;
+	width: 115px !important; /*80*/
+}
+
+#login #login-contenido form .input-chico3 {
+    background: url("../images/nuevodiseno/input-small3.html") no-repeat scroll 0% 0% transparent;
+    border: medium none;
+    font: 12px/23px arial;
+    height: 23px;
+    float: left;
+    padding: 0px 10px;
+    width: 128px;
+    color: #4f4f4f;/* 7b7b7b */
+}
+
+
+#login #login-contenido form .input-chico2 {
+    background: url("../images/nuevodiseno/bg-input-xsmall.html") no-repeat scroll 0% 0% transparent;
+    border: medium none;
+    font: 12px/23px arial;
+    height: 23px;
+    color: #4f4f4f;/* 7b7b7b */
+    float: left;
+    padding: 0px 10px;
+    width: 40px;
+}
+
+#login #login-contenido form .textarea{
+	border: 1px solid #ececec;
+	font: 11px/13px arial;
+	color: #4f4f4f;/* 7b7b7b */
+	margin: 0px -30px;
+}
+
+#login #login-contenido form .tipo-documento span{
+    color: #4f4f4f; /* 7b7b7b */
+    font: 12px/23px arial !important;
+    padding: 0px 0px 0px 12px;
+}
+
+#login #login-contenido form input.grande{
+    background: url(../img/body/bg-input.jpg) no-repeat;
+    border: none;
+    float: left;
+    color: #4f4f4f; /* 7b7b7b */
+    font: 12px/23px arial;
+    padding: 0px 12px 0px 12px;
+    height: 23px;
+    width: 226px;
+}
+
+#login #login-contenido form input.grande1{
+    background: url(../images/nuevodiseno/bg-input-1.html) no-repeat;
+    border: none;
+    float: left;
+    color: #4f4f4f; 
+    font: 12px/23px arial;
+    padding: 0px 12px 0px 12px;
+    height: 23px;
+    width: 245px;
+}
+
+#login #login-contenido #botones-clave{
+    float: left;
+    padding: 0px 0px 0px 6px;
+    width: 92px;
+}
+
+#login #login-contenido #botones-clave div{
+    background: url(../img/body/btn-boton.jpg) no-repeat;
+    color: #343434;
+    display: block;
+    font: 16px/25px 'daxcompact-boldregular';
+    height: 25px;
+    float: left;
+    margin: 0px 5px 5px 0px;
+    text-align: center;
+    width: 25px;
+    cursor:pointer;
+}
+
+#login #login-contenido #botones-clave div:hover{
+    background: url(../img/body/btn-boton-active.jpg) no-repeat;
+    color: #fff;
+}
+
+#login #login-contenido #botones-clave div.limpiar{
+    background: url(../img/body/btn-limpiar.jpg) no-repeat;
+    color: #fff;
+    font: 12px/25px 'daxcompact-boldregular';
+    width: 55px;
+}
+
+#login #login-contenido #campo-clave{
+    float: left;
+    padding: 0px 0px 0px 40px;
+    width: 110px;
+}
+
+#login #login-contenido #campo-clave p{
+    color: #4f4f4f; 
+    font: 11px/13px arial;
+    text-align: center;
+    padding: 0px 5px 10px;
+}
+
+#login #login-contenido #campo-clave input{
+    background: url(../img/body/bg-input-small.jpg) no-repeat;
+    border: none;
+    height: 23px;
+    padding: 0px 20px;
+    width: 70px;
+    color:#4f4f4f;
+}
+
+#login #login-contenido #campo-clave .olvido-clave {
+    padding: 20px 0px 0px 0px;
+    position: relative;
+}
+
+#login #login-contenido #campo-clave div.olvide-clave{
+    background: url(../images/nuevodiseno/olvide-clave.html) no-repeat;
+    color: #ba1113;
+    display: block;
+    font: 12px arial;
+    height: 24px;
+    font: 12px/24px arial;
+    text-align: left;
+    text-decoration: underline;
+    padding: 0px 0px 0px 27px;
+    cursor:pointer;
+}
+
+#login #login-contenido #campo-clave div.clave-internet{
+   
+    color: #2b2b2b;
+    display: block;
+    font: 12px arial;
+    height: 24px;
+    font: 12px/24px arial;
+    text-decoration: underline;
+    padding: 0px 0px 0px 20px;
+    cursor:pointer;
+    width: 200px;
+}
+
+#login #login-contenido #campo-clave .texto-olvide-clave{
+    display: none;
+    position: absolute;
+    right: -140px;
+    top: 2px;
+}
+
+#login #login-contenido #campo-clave .olvido-clave:hover .texto-olvide-clave{
+    display: block;
+}
+
+#login #login-contenido #campo-clave .texto-olvide-clave img{
+    position: absolute;
+    top: 23px;
+    left: -15px;
+}
+
+#login #login-contenido #campo-clave .texto-olvide-clave div{
+    background: #000;
+    color: #d5d5d5;
+    height: auto;
+    text-align: center;
+    font: 11px/12px arial;
+    padding: 5px 0px;
+    width: 120px;
+}
+
+#login #login-contenido .capcha{
+    float: left;
+    padding: 0px 18px 0px 6px;
+}
+
+#login #login-contenido .capcha #srcCaptcha{
+    padding: 0px 0px 8px 0px;
+}
+
+#login #login-contenido .capcha .boton_captcha{
+    background: url(../img/body/cambiar-capcha.jpg) no-repeat;
+    color: #ba1113;
+    display: block;
+    font: 12px arial;
+    text-decoration: underline;
+    padding: 3px 0px 2px 22px;
+    cursor:pointer;
+}
+
+#login #login-contenido input.capcha{
+    background: url(../img/body/bg-input-small.jpg) no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #4f4f4f; 
+    float: left;
+    font: 12px/23px arial;
+    height: 23px;
+    padding: 0 20px;
+    width: 70px;
+    text-transform: uppercase;
+}
+
+input.mayuscula{
+    text-transform: uppercase;
+}
+
+ul.tipo-documento{
+    width: 217px !important;
+}
+div.cysErrorMsg {
+	background-color: #FFD5D5;
+    border: 1px solid #FF3C3C;
+    color: #4F4F4F;
+    font-size: 12px;
+    list-style: none outside none;
+    margin: 0 auto;
+    padding: 4px;
+    width: 630px;
+    font-family:'Arial';
+}
+
+.formEstandar{
+	width:100%;
+	
+}
+.formEstandar .izq{
+	float:left;
+	width:250px !important;
+	text-align: left;
+	
+}
+.formEstandar .der{
+	float:right;
+	width:250px;
+	padding-left:1px;	
+}
+
+.limpiar:after { content: "."; display: block; height: 0; font-size:0; clear: both; visibility:hidden; }
+.limpiar{ display: inline-block;}
+* html .limpiar { height: 1%; }
+.limpiar{display:block;} 
+
+.cerrar {
+margin:15px 0px; padding:0px 22px 0px 0px;  
+background:url(../img/body/errorX.png) right top no-repeat; 
+font-weight:bold; color:#CC0000;
+padding-left: 400px;
+float: left;
+}
+
+.libro {
+background:url(../img/body/libro2.jpg) left top no-repeat; 
+padding-left: 80px;
+float: left;
+margin-left:90px;
+
+}
+
+.cerrar a {text-decoration:none; color:#222;}
+.cerrar a:hover { color:#CA261B; text-decoration: underline;}
+
+
+.cerrar2 {
+border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../img/body/btn-submit2.jpg') no-repeat right top;
+    font: 16px 'daxcompact-boldregular';
+    cursor: pointer;
+    color: #fff;
+    padding: 3px 0 5px;
+    text-align: center;
+     height:30px;
+    width: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.panel-min
+{
+       font: 14px arial;
+        color: #626262;
+              
+    }
+
+
+.TituloP
+{
+  /*  border: thin solid white;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    BACKGROUND-COLOR: #E1E1E1;
+    TEXT-ALIGN: left;
+    width: 750px;*/
+}
+
+.TituloP1
+{
+    border: thin solid white;
+   /*FONT-WEIGHT: bolder;*/
+    FONT-SIZE: 16px;
+    /*WIDTH: ;*/
+    COLOR: white;
+      /*COLOR: black;*/
+    /*FONT-FAMILY: arial,times new roman,Helvetica,sans-serif;*/
+    BACKGROUND-COLOR: #c9242b;
+        /*BACKGROUND-COLOR: #EBEBEB;*/
+    
+    /*TEXT-ALIGN: center;*/
+     TEXT-ALIGN: center;
+    width: 100%;
+}
+
+
+.TituloLeft
+{
+   border: thin solid white;
+    FONT-SIZE: 16px;
+    COLOR: white;
+    BACKGROUND-COLOR: #c9242b;
+    TEXT-ALIGN: left;
+   /* height:25px;
+    width:100%;*/
+ 
+
+}
+
+
+.failureNotification
+{
+    font-size: 1.0em;
+    color: Red;
+    font: 13px 'daxcompact-regularregular';
+}
+
+
+.spanError { color:red; display:inline;font-weight:bolder;  }
+
+.radiobutton
+{
+    font-weight: normal;
+    color: #121212;
+}
+
+.panel-principal
+{
+    border: 1px solid gainsboro;
+    margin: 0 auto;
+   
+}
+
+
+/*Paginacion*/
+.pagerstyle, .pagination
+{
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-color: #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding: 7px 10px;
+    overflow: auto;
+}
+
+
+#blur
+{
+      position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 2; /*99*/
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        min-height: 100%;
+        width: 100%;
+}
+
+#progress
+{
+    z-index:inherit; /*99999*/
+    background-color: White;
+    position: fixed;
+    top: 0pt;
+    left: 0pt;
+    border: solid 1px black;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+ }
+ 
+
+#blur1
+{
+      position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 2; /*99*/
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        min-height: 100%;
+        width: 100%;
+}
+
+#progress1
+{
+    z-index:inherit; /*99999*/
+    background-color: White;
+    position: fixed;
+    top: 0pt;
+    left: 0pt;
+    border: solid 1px black;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+ }
+ 
+ 
+ .rddlPopup-rddlList{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    position: relative;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+}
+
+.dropmenudiv
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+  position: relative;
+  max-height: 300px;
+  overflow: scroll;
+  top: 0px;
+  left: 0px;
+ 
+}
+
+ #DDLcity1
+    {
+        width: 128px;
+        margin: 0 15px 0 0;
+        font: 12px tahoma;
+        direction: rtl;
+        max-height: 200px;
+        overflow-y: scroll;
+        position: relative;          
+    }
+    
+    
+    .ColorReiteracion
+{
+     border: thin solid #999999;
+     color: #888888;
+      BACKGROUND-COLOR: #FAFAFA;
+}
+
+ .ColorTextos
+{
+  
+     color: #888888;
+    
+}
+
+.originalDisplayInfo 
+{ 
+color:#007ACC; 
+}
+
+
